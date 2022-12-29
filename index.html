@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="kl.css"/> -->
+    <style>
+        #c1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3em;
+        }
+        .c2{
+            display: flex;
+            flex-direction: column;
+            max-width: 30%;
+            font-size: 1.23em;
+            margin-left: 30%;
+            margin-top: 10%;
+        }
+        .res{
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="c1">
+        Let's make a calculator !!
+    </div>
+    <div class="c2">
+        <label>Please enter your first number</label>
+        <input type="number" id="num1">
+        
+        <label>Please enter your second number</label>
+        <input type="number" id="num2">
+        <label>Please enter your operation</label>
+        <input id="op">
+        <br>
+        <button onclick=solve()>
+            Calculate
+        </button>
+        <div id="res">
+
+        </div>
+    </div>
+    <script src="kl.js"></script>
+</body>
+</html>
